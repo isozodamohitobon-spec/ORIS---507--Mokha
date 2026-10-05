@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rockstar Games - Войти</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="page">
+
+        <!-- Rockstar logo -->
+        <div class="rockstar-logo">
+            <img src="img/rockstar-logo.jpg" alt="Rockstar Games">
+        </div>
+
+        <!-- Login block -->
+        <section class="login-box">
+
+            <h1>Войти</h1>
+
+            <form class="login-form">
+
+    <!-- EMAIL -->
+    <div class="field">
+
+        <div class="input-box">
+            <input
+                type="email"
+                placeholder="Электронная почта"
+                required
+            >
+        </div>
+
+        <div class="error-message">
+            Адрес электронной почты недействителен.
+            Пожалуйста, введите действительный адрес электронной почты
+            в соответствующее поле.
+        </div>
+
+    </div>
+
+    <!-- PASSWORD -->
+    <div class="field">
+
+        <div class="input-box password-box">
+
+            <input
+                type="password"
+                placeholder="Пароль"
+                required
+            >
+
+            <img
+                class="password-eye"
+                src="img/password-eye.jpg"
+                alt="Показать пароль"
+            >
+
+        </div>
+
+        <div class="error-message">
+            Требуется пароль. Пожалуйста, введите пароль
+            в соответствующее поле.
+        </div>
+
+    </div>
+
+    <!-- REMEMBER -->
+    <label class="remember">
+
+        <input type="checkbox">
+
+        <span>Держите меня подписанным на сайт</span>
+
+    </label>
+
+    <!-- BOTTOM -->
+    <div class="login-bottom">
+
+        <a href="#" class="forgot">
+            Забыли свой пароль?
+        </a>
+
+        <button type="submit">
+            Вход
+        </button>
+
+    </div>
+
+</form>
+
+        </section>
+
+        <!-- Social login -->
+        <section class="social-box">
+
+            <span>Войти с помощью</span>
+
+            <div class="social-icons">
+
+                <img
+                    src="img/playstation.jpg"
+                    alt="PlayStation"
+                >
+
+                <img
+                    src="img/xbox.jpg"
+                    alt="Xbox"
+                >
+
+            </div>
+
+        </section>
+
+        <!-- Create account -->
+        <div class="create-account">
+
+            <span>У вас нет аккаунта Rockstar Games?</span>
+
+            <a href="#">
+                Создайте новый аккаунт
+            </a>
+
+        </div>
+
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #050505;
+
+    color: #333;
+}
+
+/* =========================
+   PAGE
+========================= */
+
+.page {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 0;
+
+    background-color: #050505;
+
+    /*
+       Здесь будет твоя картинка
+       с узором Rockstar
+    */
+    background-image: url("img/background-pattern.jpg");
+    background-repeat: repeat;
+    background-position: center top;
+}
+
+/* =========================
+   ROCKSTAR LOGO
+========================= */
+
+.rockstar-logo {
+    width: 110px;
+    height: 95px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    overflow: hidden;
+
+    margin-bottom: 0;
+}
+
+.rockstar-logo img {
+    width: 100px;
+    height: auto;
+
+    display: block;
+}
+
+/* =========================
+   LOGIN BOX
+========================= */
+
+.login-box {
+    width: 636px;
+    max-width: calc(100% - 30px);
+
+    min-height: 392px;
+
+    background: #ffffff;
+
+    padding: 28px 25px 24px;
+
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.login-box h1 {
+    margin-bottom: 27px;
+
+    font-size: 30px;
+    font-weight: 600;
+
+    color: #555;
+}
+
+/* =========================
+   INPUTS
+========================= */
+
+.input-box {
+    position: relative;
+
+    width: 100%;
+    height: 64px;
+
+    margin-bottom: 25px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+
+    padding: 0 24px;
+
+    border: 2px solid #eeeeee;
+
+    background: #ffffff;
+
+    color: #444;
+
+    font-size: 20px;
+
+    outline: none;
+}
+
+.input-box input:focus {
+    border-color: #59a5ca;
+}
+
+/* Password */
+
+.password-box {
+    margin-bottom: 24px;
+}
+
+.password-box input {
+    padding-right: 65px;
+}
+
+.password-eye {
+    position: absolute;
+
+    right: 27px;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    width: 22px;
+    height: 22px;
+
+    object-fit: contain;
+
+    opacity: 0.65;
+}
+
+/* Поле и сообщение об ошибке */
+
+.field {
+    width: 100%;
+    margin-bottom: 27px;
+}
+
+.error-message {
+    display: none;
+
+    width: 100%;
+
+    padding: 11px 25px 13px;
+
+    background: #d00000;
+    color: white;
+
+    font-size: 18px;
+    line-height: 1.45;
+}
+
+/* Красная рамка неправильного поля */
+
+.field:has(input:invalid:not(:placeholder-shown)) .input-box input {
+    border-color: #a83232;
+}
+
+/* Показываем ошибку */
+
+.field:has(input:invalid:not(:placeholder-shown)) .error-message {
+    display: block;
+}
+/* =========================
+   REMEMBER
+========================= */
+
+.remember {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    margin-bottom: 27px;
+
+    font-size: 20px;
+
+    color: #333;
+
+    cursor: pointer;
+}
+
+.remember input {
+    width: 26px;
+    height: 26px;
+
+    margin: 0;
+
+    cursor: pointer;
+}
+
+/* =========================
+   LOGIN BOTTOM
+========================= */
+
+.login-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forgot {
+    font-size: 20px;
+
+    color: #444;
+
+    text-decoration: underline;
+}
+
+.login-bottom button {
+    width: 128px;
+    height: 49px;
+
+    border: none;
+
+    background: #f7941d;
+
+    color: #111;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.login-bottom button:hover {
+    background: #ff9f20;
+}
+
+/* =========================
+   SOCIAL BOX
+========================= */
+
+.social-box {
+    width: 636px;
+    max-width: calc(100% - 30px);
+
+    height: 133px;
+
+    margin-top: 25px;
+
+    padding: 20px 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #ffffff;
+
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.social-box > span {
+    font-size: 20px;
+
+    color: #666;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+
+    gap: 18px;
+}
+
+.social-icons img {
+    width: 84px;
+    height: 84px;
+
+    object-fit: contain;
+
+    border-radius: 50%;
+}
+
+/* =========================
+   CREATE ACCOUNT
+========================= */
+
+.create-account {
+    width: 636px;
+    max-width: calc(100% - 30px);
+
+    margin-top: 38px;
+    margin-bottom: 15px;
+
+    text-align: left;
+
+    font-size: 17px;
+
+    color: #ffffff;
+}
+
+.create-account a {
+    color: #d58b21;
+
+    text-decoration: underline;
+}
+
+.create-account a:hover {
+    color: #f0a329;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+    .page {
+        padding-top: 0;
+    }
+
+    .rockstar-logo {
+        height: 80px;
+    }
+
+    .rockstar-logo img {
+        width: 85px;
+    }
+
+    .login-box {
+        padding: 25px 20px;
+
+        min-height: auto;
+    }
+
+    .login-box h1 {
+        font-size: 27px;
+    }
+
+    .input-box {
+        height: 56px;
+    }
+
+    .input-box input {
+        font-size: 17px;
+    }
+
+    .remember {
+        font-size: 17px;
+    }
+
+    .remember input {
+        width: 23px;
+        height: 23px;
+    }
+
+    .login-bottom {
+        align-items: flex-end;
+
+        gap: 15px;
+    }
+
+    .forgot {
+        font-size: 17px;
+    }
+
+    .login-bottom button {
+        width: 110px;
+        height: 46px;
+
+        font-size: 18px;
+    }
+
+    .social-box {
+        height: auto;
+
+        min-height: 110px;
+
+        padding: 18px 20px;
+    }
+
+    .social-box > span {
+        font-size: 17px;
+    }
+
+    .social-icons img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .create-account {
+        font-size: 14px;
+
+        line-height: 1.5;
+    }
+}
+
+/* =========================
+   SMALL PHONE
+========================= */
+
+@media (max-width: 450px) {
+
+    .login-bottom {
+        flex-direction: column;
+
+        align-items: stretch;
+    }
+
+    .login-bottom button {
+        align-self: flex-end;
+    }
+
+    .social-box {
+        flex-direction: column;
+
+        gap: 15px;
+
+        align-items: flex-start;
+    }
+
+    .create-account {
+        text-align: center;
+    }
+}

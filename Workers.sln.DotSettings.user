@@ -1,0 +1,10 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ac60ee94_002Da350_002D4a66_002D8a07_002D5dfb75f65937/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="UserConstructor_ShouldSetPropertiesCorrectly" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::1C330517-A065-4699-B895-379B1B6B7868::net8.0::Workers.UserTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::1C330517-A065-4699-B895-379B1B6B7868::net8.0::Workers.HtmlTemplateTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::1C330517-A065-4699-B895-379B1B6B7868::net8.0::Workers.CarTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::1C330517-A065-4699-B895-379B1B6B7868::net8.0::Workers.BookTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::1C330517-A065-4699-B895-379B1B6B7868::net8.0::Workers.BagTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

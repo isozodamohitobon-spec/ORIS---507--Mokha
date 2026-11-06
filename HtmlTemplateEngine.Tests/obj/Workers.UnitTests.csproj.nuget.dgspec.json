@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Mokhitobon\\RiderProjects\\Workers\\Workers.UnitTests\\Workers.UnitTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Mokhitobon\\RiderProjects\\Workers\\HtmlTemplateEngine\\HtmlTemplateEngine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mokhitobon\\RiderProjects\\Workers\\HtmlTemplateEngine\\HtmlTemplateEngine.csproj",
+        "projectName": "HtmlTemplateEngine",
+        "projectPath": "C:\\Users\\Mokhitobon\\RiderProjects\\Workers\\HtmlTemplateEngine\\HtmlTemplateEngine.csproj",
+        "packagesPath": "C:\\Users\\Mokhitobon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mokhitobon\\RiderProjects\\Workers\\HtmlTemplateEngine\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mokhitobon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mokhitobon\\RiderProjects\\Workers\\Workers.UnitTests\\Workers.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mokhitobon\\RiderProjects\\Workers\\Workers.UnitTests\\Workers.UnitTests.csproj",
+        "projectName": "Workers.UnitTests",
+        "projectPath": "C:\\Users\\Mokhitobon\\RiderProjects\\Workers\\Workers.UnitTests\\Workers.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\Mokhitobon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mokhitobon\\RiderProjects\\Workers\\Workers.UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mokhitobon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Mokhitobon\\RiderProjects\\Workers\\HtmlTemplateEngine\\HtmlTemplateEngine.csproj": {
+                "projectPath": "C:\\Users\\Mokhitobon\\RiderProjects\\Workers\\HtmlTemplateEngine\\HtmlTemplateEngine.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

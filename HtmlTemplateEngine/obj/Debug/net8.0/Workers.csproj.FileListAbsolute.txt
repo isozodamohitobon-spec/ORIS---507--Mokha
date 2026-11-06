@@ -1,0 +1,14 @@
+C:\Users\Mokhitobon\RiderProjects\Workers\Workers\obj\Debug\net8.0\Workers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mokhitobon\RiderProjects\Workers\Workers\obj\Debug\net8.0\Workers.AssemblyInfoInputs.cache
+C:\Users\Mokhitobon\RiderProjects\Workers\Workers\obj\Debug\net8.0\Workers.AssemblyInfo.cs
+C:\Users\Mokhitobon\RiderProjects\Workers\Workers\obj\Debug\net8.0\Workers.csproj.CoreCompileInputs.cache
+C:\Users\Mokhitobon\RiderProjects\Workers\Workers\bin\Debug\net8.0\Workers.exe
+C:\Users\Mokhitobon\RiderProjects\Workers\Workers\bin\Debug\net8.0\Workers.deps.json
+C:\Users\Mokhitobon\RiderProjects\Workers\Workers\bin\Debug\net8.0\Workers.runtimeconfig.json
+C:\Users\Mokhitobon\RiderProjects\Workers\Workers\bin\Debug\net8.0\Workers.dll
+C:\Users\Mokhitobon\RiderProjects\Workers\Workers\bin\Debug\net8.0\Workers.pdb
+C:\Users\Mokhitobon\RiderProjects\Workers\Workers\obj\Debug\net8.0\Workers.dll
+C:\Users\Mokhitobon\RiderProjects\Workers\Workers\obj\Debug\net8.0\refint\Workers.dll
+C:\Users\Mokhitobon\RiderProjects\Workers\Workers\obj\Debug\net8.0\Workers.pdb
+C:\Users\Mokhitobon\RiderProjects\Workers\Workers\obj\Debug\net8.0\Workers.genruntimeconfig.cache
+C:\Users\Mokhitobon\RiderProjects\Workers\Workers\obj\Debug\net8.0\ref\Workers.dll

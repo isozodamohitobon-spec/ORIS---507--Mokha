@@ -1,0 +1,14 @@
+C:\Users\Mokhitobon\RiderProjects\Workers\HtmlTemplateEngine\bin\Debug\net8.0\HtmlTemplateEngine.exe
+C:\Users\Mokhitobon\RiderProjects\Workers\HtmlTemplateEngine\bin\Debug\net8.0\HtmlTemplateEngine.deps.json
+C:\Users\Mokhitobon\RiderProjects\Workers\HtmlTemplateEngine\bin\Debug\net8.0\HtmlTemplateEngine.runtimeconfig.json
+C:\Users\Mokhitobon\RiderProjects\Workers\HtmlTemplateEngine\bin\Debug\net8.0\HtmlTemplateEngine.dll
+C:\Users\Mokhitobon\RiderProjects\Workers\HtmlTemplateEngine\bin\Debug\net8.0\HtmlTemplateEngine.pdb
+C:\Users\Mokhitobon\RiderProjects\Workers\HtmlTemplateEngine\obj\Debug\net8.0\HtmlTemplateEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mokhitobon\RiderProjects\Workers\HtmlTemplateEngine\obj\Debug\net8.0\HtmlTemplateEngine.AssemblyInfoInputs.cache
+C:\Users\Mokhitobon\RiderProjects\Workers\HtmlTemplateEngine\obj\Debug\net8.0\HtmlTemplateEngine.AssemblyInfo.cs
+C:\Users\Mokhitobon\RiderProjects\Workers\HtmlTemplateEngine\obj\Debug\net8.0\HtmlTemplateEngine.csproj.CoreCompileInputs.cache
+C:\Users\Mokhitobon\RiderProjects\Workers\HtmlTemplateEngine\obj\Debug\net8.0\HtmlTemplateEngine.dll
+C:\Users\Mokhitobon\RiderProjects\Workers\HtmlTemplateEngine\obj\Debug\net8.0\refint\HtmlTemplateEngine.dll
+C:\Users\Mokhitobon\RiderProjects\Workers\HtmlTemplateEngine\obj\Debug\net8.0\HtmlTemplateEngine.pdb
+C:\Users\Mokhitobon\RiderProjects\Workers\HtmlTemplateEngine\obj\Debug\net8.0\HtmlTemplateEngine.genruntimeconfig.cache
+C:\Users\Mokhitobon\RiderProjects\Workers\HtmlTemplateEngine\obj\Debug\net8.0\ref\HtmlTemplateEngine.dll

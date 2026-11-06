@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlTemplateEngine", "HtmlTemplateEngine\HtmlTemplateEngine.csproj", "{F7DA537B-5EB9-4372-891E-6F609FF7BBB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlTemplateEngine.Tests", "HtmlTemplateEngine.Tests\HtmlTemplateEngine.Tests.csproj", "{1C330517-A065-4699-B895-379B1B6B7868}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7DA537B-5EB9-4372-891E-6F609FF7BBB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7DA537B-5EB9-4372-891E-6F609FF7BBB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7DA537B-5EB9-4372-891E-6F609FF7BBB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7DA537B-5EB9-4372-891E-6F609FF7BBB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C330517-A065-4699-B895-379B1B6B7868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C330517-A065-4699-B895-379B1B6B7868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C330517-A065-4699-B895-379B1B6B7868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C330517-A065-4699-B895-379B1B6B7868}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
